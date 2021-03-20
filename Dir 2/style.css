@@ -1,0 +1,87 @@
+body {
+    background: #0c2724f3;
+    background-size: cover;
+    background-repeat: norepeat;
+    font-family: "Caveat Brush", cursive;
+    font-size: 1.5em;
+    text-align: center;
+}
+#main-title {
+    color:white;
+    text-decoration: none;
+    font-size: 2em;
+
+}
+#main-title:hover {
+    color: #f1d010d8;
+    font-size: 2.5em;
+}
+.title {
+    color: white;
+    font-family: "Berkshire Swash", cursive;
+    font-size: 2.5em;
+}
+h4 {
+    color: white;
+}
+.nav {
+    text-decoration: none;
+    color: white;
+}
+.nav:hover{
+    color: rgb(255, 249, 213);
+    font-size:1.15em;
+}
+h4 .main-nav:hover {
+    color:#f0dd74d8;
+    font-size: 1.5em;
+}
+.form {
+    color: white;
+    text-align: center;
+    font-family: "Spartan", sans-serif; 
+    font-size:.5em;  
+} 
+.form-input{
+    font-family: "Spartan", sans-serif;
+    font-size:.5em;
+}
+#send{
+    font-family: "Caveat Brush", cursive;
+    background: rgb(247, 171, 31);
+    color:white;
+    font-size:.7em;
+}
+#send:hover {
+    font-size:.8em;
+    background:rgb(252, 135, 1)
+}
+#sign-in {
+    font-family: "Caveat Brush", cursive;
+    background: rgb(247, 171, 31);
+    color:white;
+    font-size:.7em;
+}
+#sign-in:hover {
+    font-size:.8em;
+    background:rgb(252, 135, 1)
+}
+#cover-image{
+    height:500px;
+    border: 2px solid black;
+    margin: 35px 500px;
+}
+.maintext{
+    color:white;
+    text-align: justify;
+    font-family: "Spartan", sans-serif;
+    font-size:.75em
+}
+#samplespc {
+    height: 400px;
+    width: 100%;
+    background: linear-gradient(190deg, #8f8a73bb, #948b3b96, #8aa54220);
+
+    border: 1px solid black;
+    margin: 10px 100px
+}
