@@ -10,28 +10,39 @@
         <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Caveat+Brush&display=swap&family=Spartan:wght@200&display=swap" rel="stylesheet">
         <link rel="stylesheet" type= "text/css" href= "style.css">
 	</head>
-    <div class="maintitle">
-    <h2 class="title" id="main-title" <a href="index.html" 
-        flex: 1 1 900px>Yasmine</a></h2>
-    </div>
+    <div class="container">
 	<body> 
         <header>
-            <div class= "menu">
-                <div class= "menu-item"><a class= "nav main-nav"href="Page2.html">About Me</a></div>
-            <div class= "menu-item"><a class="nav main-nav" href="Page3.html">Projects</a></div>
-            </div>
-            <a id= "depop" class= "nav icon" href="https://www.depop.com" target="_blank"> <img width="30" src= "Media/depopicon.png"> </a>  
-            <a id="insta" class= "nav icon" href= "https://www.instagram.com/yas.mine.syd.ney" target= "_blank"><img width="30" src= "Media/instaicon.png"></a>
+            <nav>   
+                <a class="title" id="main-title" href="index.html">Yasmine</a>
+                <ul style="list-style-type:none;">
+                    <li class= "menu-item"><a class= "main-nav"href="Page2.html">About Me</a></li>
+                    <li class= "menu-item"><a class="main-nav" href="Page3.html">Projects</a></li>
+                    <li class= "main-nav"><a id= "depop"  href="https://www.depop.com" target="_blank"><img width="30" src= "Media/depopicon.png"></a></li>
+                    <li class= "main-nav">
+                        <a id="insta" href= "https://www.instagram.com/yas.mine.syd.ney" target= "_blank"><img width="30" src= "Media/instaicon.png"></a>
+                    </li>
+                </ul>
+            </nav> 
+            <button><a href= "Login.html">Log In</a></button>
         </header> 
-        <main class="maintext">
+        <hero></hero><img id="image" src= "Media/cover.JPG"></img>
+        </hero>
+        <aside class= "sidebar">
+            <h1 class= "title sidebar-title">Quick Links</h1>
+                <ul style= "list-style-type: none;">
+                    <li><a href= "https://www.linkedin.com">LinkedIn</a></li>
+                    <li></li>
+            </ul>
+        </aside>
+        <main> 
+            </main>
             <article>
                 <section>
                     <div class="article-container">
                         <div class= "article-item" id= "article-title" style= "order: 1"
                         grid-column: 1 / span 2;><h2 class= "title" id= article-title">Howdy!</h2></div>
-                        <div class= "article-item " style= "order: 4">
-                        <img id="image" src= "Media/cover.JPG"></img>
-                        </div>
+                       
                         <div class= "article-item text1" style= "order: 3"> <p class= "para-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></div>
                         <div class= "article-item text2" style= "order: 2" 
                         >
@@ -40,7 +51,8 @@
                     <div id=samplespc></div>
                 </section>
         </article>
-        </main>
+    
+    </div>
     </body> 
     <br/>      
     <footer>

@@ -1,21 +1,41 @@
 body {
   background: #0c2724f3;
   background-size: cover;
-  background-repeat: norepeat;
   font-family: "Caveat Brush", cursive;
   font-size: 1.5em;
 }
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 60px;
+  display: grid;
+  grid-template-rows: 1fr 4fr auto 1fr;
+  grid-template-columns: 3fr 1fr;
+  grid-template-areas:
+    "header header"
+    "hero main"
+    "sidebar extra"
+    "footer footer";
+}
+header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+img {
+  max-width: 50vh;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .maintitle {
   color: white;
   text-decoration: none;
   font-size: 4vw;
-
-  height: 22vw;
-  width: 100vw;
-
-  display: flex;
-  justify-content: center;
-  align-content: center;
 }
 #main-title:hover {
   color: #f1d010d8;
@@ -26,27 +46,12 @@ body {
   font-family: "Berkshire Swash", cursive;
   font-size: 2.75em;
 }
-.menu {
-  height: auto;
-  width: 100vw;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
+
 .menu-item {
   margin: 2vw;
   font-size: 3.25vw;
 }
-.nav {
-  text-decoration: none;
-  color: white;
-}
-.nav:hover {
-  color: rgb(255, 249, 213);
-  font-size: 1.15em;
-}
-h4 .main-nav:hover {
+.main-nav:hover {
   color: #f0dd74d8;
   font-size: 2em;
 }
