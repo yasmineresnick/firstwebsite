@@ -10,50 +10,47 @@
         <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Caveat+Brush&display=swap&family=Spartan:wght@200&display=swap" rel="stylesheet">
         <link rel="stylesheet" type= "text/css" href= "style.css">
 	</head>
-    <h2 class="title"><a id="main-title" href="index.html"</a>Yasmine</h2>
+    <div class="maintitle">
+    <h2 class="title" id="main-title" <a href="index.html" 
+        flex: 1 1 900px>Yasmine</a></h2>
+    </div>
 	<body> 
         <header>
-            <h4><a class="subtitle nav main-nav" href="Page2.html">About Me</a><h4>
-            <h4><a class="subtitle nav main-nav" href="Page3.html">Projects</a></h4>
-            <h4><a class="subtitle nav main-nav" 
-            <hr/>
-            <a id= "depop" class= "nav icon" href="https://www.depop.com" target="_blank"> <img width="30" src= "Media/depopicon.png"> </a>  
+            <div class= "menu">
+                <div class= "menu-item"><a class= "nav main-nav"href="Page2.html">About Me</a></div>
+            <div class= "menu-item"><a class="nav main-nav" href="Page3.html">Projects</a></div>
+            </div>
+            <!-- <a id= "depop" class= "nav icon" href="https://www.depop.com" target="_blank"> <img width="30" src= "Media/depopicon.png"> </a>  
             <a id="insta" class= "nav icon" href= "https://www.instagram.com/yas.mine.syd.ney" target= "_blank"><img width="30" src= "Media/instaicon.png"></a>
-            <h4 class="subtitle">Sign In</h4> 
-            <form>
+            <h4 class="subtitle">Sign In</h4>  -->
+            <!-- <form>
                 <label class="form" for="username">Username:</label>
                 <input class= "form-input" type="text" placeholder= "your@email.com"/>
                 <label class= "form" for="password">Password:</label>
-                <input class= "form-input" type="password" placeholder="Password"/>
-            <input id= "sign-in" type="submit" value="Let's go!"/> 
+                <!-- <input class= "form-input" type="password" placeholder="Password"/> -->
+            <!-- <input id= "sign-in" type="submit" value="Let's go!"/> 
             <h4 class="subtitle" id= "txtbx-label"> Send me a little note!</h4>
             <textarea class= "form-input" rows="5" cols="30">
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil excepturi id consequatur ducimus ipsum dolor quidem quae ipsa nam nobis?
             </textarea>
-                <div>
                 <button id= "send" class= "form-input">Send it!</button>
-                </div>
-            </form>
-            <hr/>
-        </header>
+            </form> -->
+        </header> 
         <main class="maintext">
             <article>
                 <section>
-                    <h2 class= "title" id= article-title">Howdy!</h2>
-                    <div> <img id="cover-image" src= "Media/cover.JPG"></div>
-                    <div>
-                    <p class= "para-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias perspiciatis delectus repudiandae quod harum sapiente praesentium aliquid asperiores ad repellat nihil ea a et atque minus consequatur dolorem maxime non quidem eos quo, omnis porro esse eius? Expedita animi maiores, esse nam perspiciatis ipsa porro, quos minus id necessitatibus nesciunt.</p>
-                    <ul>
-                        <li class= "list-item">Lorem ipsum dolor sit.</li>
-                        <li class= "list-item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia illo cumque id laborum blanditiis? Veniam voluptatem in laudantium sed adipisci?</li>
-                        <li><a class= "nav list-item" href= "Page2.html">Check this out!</a></li>
-                    </ul>
-                    <p class= "para-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium cumque blanditiis eveniet ut dolorum! Aut soluta quasi maiores harum quod. Exercitationem excepturi impedit tempore pariatur natus dolorum quas iusto atque.</p>
+                    <div class="article-container">
+                        <div class= "article-item" id= "article-title" style= "order: 1"
+                        grid-column: 1 / span 2;><h2 class= "title" id= article-title">Howdy!</h2></div>
+                        <div class= "article-item " style= "order: 4">
+                        <img id="image" src= "Media/cover.JPG"></img>
+                        </div>
+                        <div class= "article-item text1" style= "order: 3"> <p class= "para-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></div>
+                        <div class= "article-item text2" style= "order: 2" 
+                        >
+                        <p class= "para-text" ">Praesentium cumque ut dolorum! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit, ea? </p></div>
                     </div>
                     <div id=samplespc></div>
-                </section>
-                <section>
-                    <iframe width="560" height= "315" src="https://www.youtube.com/embed/5qap5aO4i9A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </section>
         </article>
         </main>
