@@ -15,18 +15,15 @@
         <header>
             <nav>   
                 <a class="title" id="main-title" href="index.html">Yasmine</a>
-                <ul style="list-style-type:none;">
-                    <li class= "menu-item"><a class= "main-nav"href="Page2.html">About Me</a></li>
-                    <li class= "menu-item"><a class="main-nav" href="Page3.html">Projects</a></li>
-                    <li class= "main-nav"><a id= "depop"  href="https://www.depop.com" target="_blank"><img width="30" src= "Media/depopicon.png"></a></li>
-                    <li class= "main-nav">
-                        <a id="insta" href= "https://www.instagram.com/yas.mine.syd.ney" target= "_blank"><img width="30" src= "Media/instaicon.png"></a>
-                    </li>
-                </ul>
+                <a class= "main-nav"href="Page2.html">About Me</a>
+                <a class="main-nav" href="Page3.html">Projects</a>
+                <a class= "main-nav"id= "depop"  href="https://www.depop.com" target="_blank"><img width="25" src= "Media/depopicon.png"></a>
+                <a class= "main-nav" id="insta" href= "https://www.instagram.com/yas.mine.syd.ney" target= "_blank"><img width="25" src= "Media/instaicon.png"></a>
+                <button class= "button"><a href= "Login.html">Log In</a></button>
             </nav> 
-            <button><a href= "Login.html">Log In</a></button>
         </header> 
-        <hero></hero><img id="image" src= "Media/cover.JPG"></img>
+        <div class= "cont-wrapper">
+        <hero><img id="image" src= "Media/cover.JPG"></img>
         </hero>
         <aside class= "sidebar">
             <h1 class= "title sidebar-title">Quick Links</h1>
@@ -36,25 +33,21 @@
             </ul>
         </aside>
         <main> 
-            </main>
+            <div id= "article-title" style= "order: 1"
+                        grid-column: 1 / span 2;><h2 class= "title" id= article-title">Howdy!</h2></div>
             <article>
                 <section>
                     <div class="article-container">
-                        <div class= "article-item" id= "article-title" style= "order: 1"
-                        grid-column: 1 / span 2;><h2 class= "title" id= article-title">Howdy!</h2></div>
-                       
-                        <div class= "article-item text1" style= "order: 3"> <p class= "para-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></div>
-                        <div class= "article-item text2" style= "order: 2" 
+                        <div class= "article-item1"> <p class= "para-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></div>
+                        <div class= "article-item2"
                         >
-                        <p class= "para-text" ">Praesentium cumque ut dolorum! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit, ea? </p></div>
-                    </div>
-                    <div id=samplespc></div>
-                </section>
-        </article>
-    
+                        <p class= "para-text" ">Praesentium cumque ut dolorum! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit, ea? </p></div>  
+                </section>  
+            </article>
+        </main>
+        <extra class= "extra" id="samplespc"></extra>
     </div>
-    </body> 
-    <br/>      
+    </body>   
     <footer>
             
     </footer>      
